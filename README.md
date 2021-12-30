@@ -10,6 +10,6 @@
 import KRTCTokenAPIv1
 
 api = KRTCTokenAPIv1.KRTCTokenAPIv1(9110123132, 'a173af0fa8c1008bc269e0064f32c2e408292279')
-token = api.gen_token("321123")
+token = api.genUserToken("321123")
 print(token)
 ```
