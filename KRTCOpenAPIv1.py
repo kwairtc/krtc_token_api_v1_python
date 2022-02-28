@@ -76,6 +76,6 @@ print('curl -X POST ' + url
       + ' -H "Host: ' + host + '"'
       + ' -H "X-KC-Action: ' + action + '"'
       + ' -H "X-KC-Tms: ' + str(timestamp) + '"'
-      + ' -H "X-TC-Version: ' + version + '"'
+      + ' -H "X-KC-Version: ' + version + '"'
       + " -d '" + payload + "'")
       
